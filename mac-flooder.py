@@ -10,7 +10,7 @@ packet = Ether(src=RandMAC("*:*:*:*:*:*"),
          ICMP()
 
 if len(sys.argv) < 2:
-    dev = "enp3s0f1"
+    dev = "enp0s3"
 else:
     dev = sys.argv[1]
 

@@ -8,7 +8,7 @@ if len(sys.argv) < 3:
     print(sys.argv[0] + ": <target> <spoof_ip>")
     sys.exit(1)
 
-iface = "wlp2s0"
+iface = "enp0s3"
 target_ip = sys.argv[1]
 fake_ip = sys.argv[2]
 
